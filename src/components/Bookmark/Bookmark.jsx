@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Bookmark = ({bookmark}) => {
     return (
-        <div className='p-[20px] font-semibold text-lg'>
+        <div className='p-[20px] font-semibold text-lg w-[311px]'>
             <h2>{bookmark.title}</h2>
         </div>
     );
